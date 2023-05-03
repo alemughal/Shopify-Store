@@ -9,13 +9,13 @@ Builder.registerComponent(Text, {
   name: 'Text',
   inputs: [
     {
-      name: 'heading',
-      type: 'richText',
+      name: 'headline',
+      type: 'string',
       defaultValue: '<p>Enter some text...</p>',
     },
     {
         name: 'description',
-        type: 'richText',
+        type: 'string',
       },
   ],
 })
